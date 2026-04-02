@@ -87,7 +87,7 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>PRINT & BRANDING</h3>
+              <h3>GRAPHIC & UI/UX</h3>
               <h4>Description</h4>
               <p>
                 Crafting visually compelling designs across digital and print platforms to create impactful brand experiences.
