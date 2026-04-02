@@ -11,17 +11,41 @@ import {
   RapierRigidBody,
 } from "@react-three/rapier";
 
+const createTextTexture = (text: string) => {
+  const canvas = document.createElement("canvas");
+  canvas.width = 512;
+  canvas.height = 512;
+  const context = canvas.getContext("2d");
+  if (context) {
+    // Elegant dark gradient background
+    const gradient = context.createLinearGradient(0, 0, 512, 512);
+    gradient.addColorStop(0, "#2c3e50");
+    gradient.addColorStop(1, "#3498db");
+    context.fillStyle = gradient;
+    context.fillRect(0, 0, 512, 512);
+    
+    // Add text
+    context.fillStyle = "#ffffff";
+    context.font = "bold 55px Inter, Helvetica, Arial, sans-serif";
+    context.textAlign = "center";
+    context.textBaseline = "middle";
+    
+    // Auto wrap or multiline if needed
+    const words = text.split(" ");
+    if (words.length > 1) {
+      context.fillText(words[0], 256, 220);
+      context.fillText(words.slice(1).join(" "), 256, 290);
+    } else {
+      context.fillText(text, 256, 256);
+    }
+  }
+  return canvas.toDataURL("image/png");
+};
+
+const tools = ['Photoshop', 'Illustrator', 'After Effects', 'Audition', 'Figma', 'Premiere Pro'];
+const imageUrls = tools.map(createTextTexture);
+
 const textureLoader = new THREE.TextureLoader();
-const imageUrls = [
-  "/images/react2.webp",
-  "/images/next2.webp",
-  "/images/node2.webp",
-  "/images/express.webp",
-  "/images/mongo.webp",
-  "/images/mysql.webp",
-  "/images/typescript.webp",
-  "/images/javascript.webp",
-];
 const textures = imageUrls.map((url) => textureLoader.load(url));
 
 const sphereGeometry = new THREE.SphereGeometry(1, 28, 28);

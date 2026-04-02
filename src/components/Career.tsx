@@ -15,43 +15,61 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Lead Graphic Designer</h4>
+                <h5>Kerv</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>2021</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Specializing in creating impactful brand experiences through design, motion, and storytelling.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Senior Graphic Designer</h4>
+                <h5>Wiggles India</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>2020</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Graphic Design, Print & Branding Design, Social Media Campaigns (Graphics & Video)
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Senior Graphic Designer</h4>
+                <h5>JW Design Studio</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>2019</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Art Direction, Video Production, and Motion Graphics
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Senior Graphic Designer</h4>
+                <h5>Pushpam Group</h5>
+              </div>
+              <h3>2018</h3>
+            </div>
+            <p>
+              Presentation Design, UI/UX Design, and more.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Graphic Designer</h4>
+                <h5>Freelancer / AD Matters / Media Solutions</h5>
+              </div>
+              <h3>2015</h3>
+            </div>
+            <p>
+              Gained foundational graphic design experience working at Media Solutions (2015), AD Matters (2016), and as a Freelancer (2017).
             </p>
           </div>
         </div>
