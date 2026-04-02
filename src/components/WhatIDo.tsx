@@ -88,7 +88,6 @@ const WhatIDo = () => {
 
             <div className="what-content-in">
               <h3>GRAPHIC & UI/UX</h3>
-              <h4>Description</h4>
               <p>
                 Crafting visually compelling designs across digital and print platforms to create impactful brand experiences.
               </p>
@@ -126,7 +125,6 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
             <div className="what-content-in">
               <h3>VIDEO & MOTION</h3>
-              <h4>Description</h4>
               <p>
                 Specializing in art direction, video production, shooting, editing, and motion graphics for social media campaigns.
               </p>
