@@ -16,15 +16,15 @@ const Contact = () => {
             </p>
             <h4>Phone</h4>
             <p>
-              <a href="tel:+919096555561" data-cursor="disable">
-                +91 90965 55561
+              <a href="tel:+919876543210" data-cursor="disable">
+                +91 98765 43210
               </a>
             </p>
           </div>
           <div className="contact-box">
             <h4>Social</h4>
             <a
-              href="https://drive.google.com/drive/folders/1boOj-19AU8804Rea-HvZNAW7QrCf6AFT?usp=drive_link"
+              href="#"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
@@ -32,7 +32,7 @@ const Contact = () => {
               Portfolio Drive <MdArrowOutward />
             </a>
             <a
-              href="https://www.behance.net/kpdesigneer"
+              href="#"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
