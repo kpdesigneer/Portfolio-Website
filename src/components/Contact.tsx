@@ -24,7 +24,7 @@ const Contact = () => {
           <div className="contact-box">
             <h4>Social</h4>
             <a
-              href="#"
+              href="https://drive.google.com/drive/folders/1boOj-19AU8804Rea-HvZNAW7QrCf6AFT?usp=drive_link"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
@@ -32,7 +32,7 @@ const Contact = () => {
               Portfolio Drive <MdArrowOutward />
             </a>
             <a
-              href="#"
+              href="https://www.behance.net/kpdesigneer"
               target="_blank"
               data-cursor="disable"
               className="contact-social"

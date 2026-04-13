@@ -58,12 +58,12 @@ const SocialIcons = () => {
     <div className="icons-section">
       <div className="social-icons" data-cursor="icons" id="social">
         <span>
-          <a href="#" target="_blank">
+          <a href="https://www.behance.net/kpdesigneer" target="_blank">
             <FaBehance />
           </a>
         </span>
         <span>
-          <a href="#" target="_blank">
+          <a href="https://drive.google.com/drive/folders/1boOj-19AU8804Rea-HvZNAW7QrCf6AFT?usp=drive_link" target="_blank">
             <FaGoogleDrive />
           </a>
         </span>
