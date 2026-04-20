@@ -42,7 +42,7 @@ export function setCharTimeline(
       object.children.forEach((child: any) => {
         child.material.transparent = true;
         child.material.opacity = 0;
-        if (child.material.name === "Material.027") {
+        if (child.material.name === "Material.018" || child.material.name === "Material.027") {
           monitor = child;
           child.material.color.set("#FFFFFF");
         }
